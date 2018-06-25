@@ -1,7 +1,11 @@
 body {
-	background-image: url("../images/blackground.jpg")
+	font-family: "Times New Roman", Times, serif;
+	background-image: url("../images/blackground.jpg");
 }
 
+#mainname {
+	padding-bottom: 20px;
+}
 
 .card-title {
 	text-align: center;
@@ -15,6 +19,12 @@ body {
 	border: 2.8px outset #800000;
 	color: #fff;
 	border-radius: 5px;
+	padding-bottom: 10px;
+}
+
+#messagebox {
+	text-align: left;
+	padding-left: 15px;
 }
 
 .jumbotron {
@@ -28,3 +38,6 @@ body {
 	padding-bottom: 50px;
 }
 
+#contact {
+	text-align: center;
+}
