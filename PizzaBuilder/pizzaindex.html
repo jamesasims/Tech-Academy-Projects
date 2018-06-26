@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Paddy's Pizza!</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="./css/stylesheet.css">
+	</head>
+	
+	<body>
+	<div class="container">
+		<h1 id="title">Place Your Order Here!</h1>
+		<div class="card-group">
+				<div class="card bg-dark text-white">
+					<div class="card-body">
+						<h5 class="card-title">Pizza Size</h5>
+						<input class="psize" type="radio" name="Size" value="Personal Pizza"> Personal Pizza<br>
+						<input class="psize" type="radio" name="Size" value="Medium Pizza"> Medium Pizza<br>
+						<input class="psize" type="radio" name="Size" value="Large Pizza"> Large Pizza<br>
+						<input class="psize" type="radio" name="Size" value="Extra Large Pizza"> Extra Large Pizza<br>
+					</div>
+				</div>
+				<div class="card bg-dark text-white">
+					<div class="card-body">
+						<h5 class="card-title">Meat Additions</h5>
+						<input class="meats" type="checkbox" name="Meat" value="Pepperoni"> Pepperoni<br>
+						<input class="meats" type="checkbox" name="Meat" value="Sausage"> Sausage <br>
+						<input class="meats" type="checkbox" name="Meat" value="Canadian Bacon"> Canadian Bacon<br> 
+						<input class="meats" type="checkbox" name="Meat" value="Ground Beef"> Ground Beef<br>
+						<input class="meats" type="checkbox" name="Meat" value="Anchovy"> Anchovy<br>
+						<input class="meats" type="checkbox" name="Meat" value="Chicken"> Chicken<br>
+					</div>
+				</div>
+				<div class="card bg-dark text-white">
+					<div class="card-body">
+						<h5 class="card-title">Cheese</h5>
+						<input class="cheese" type="radio" name="CheeseAmount" value="Regular Cheese"> Regular Cheese<br>
+						<input class="cheese" type="radio" name="CheeseAmount" value="No Cheese"> No Cheese<br>
+						<input class="cheese" type="radio" name="CheeseAmount" value="Extra Cheese"> Extra Cheese<br>
+					</div>
+				</div>
+				
+			</div>
+	
+	
+	
+		<div class="card-group">
+				<div class="card bg-dark text-white">
+					<div class="card-body">
+						<h5 class="card-title">Crust Options</h5>
+						<input class="crust" type="radio" name="CrustType" value="Plain Crust"> Plain Crust<br>
+						<input class="crust" type="radio" name="CrustType" value="Garlic Butter"> Garlic Butter<br>
+						<input class="crust" type="radio" name="CrustType" value="Cheese Stuffed Crust"> Cheese Stuffed Crust<br>
+						<input class="crust" type="radio" name="CrustType" value="Spicy Crust"> Spicy Crust<br>
+						<input class="crust" type="radio" name="CrustType" value="House Special"> House Special<br>
+					</div>
+				</div>
+				<div class="card bg-dark text-white">
+					<div class="card-body">
+						<h5 class="card-title">Sauce Type</h5>
+						<input class="sauce" type="radio" name="SauceType" value="Marinara Sauce"> Marinara Sauce<br>
+						<input class="sauce" type="radio" name="SauceType" value="White Sauce">White Sauce<br>
+						<input class="sauce" type="radio" name="SauceType" value="Barbeque Sauce"> Barbeque Sauce<br>
+						<input class="sauce" type="radio" name="SauceType" value="No Sauce"> No Sauce<br>
+					</div>
+				</div>
+				<div class="card bg-dark text-white">
+					<div class="card-body">
+						<h5 class="card-title">Veggies</h5>
+						<input class="veggie" type="checkbox" name="VeggieType" value="Tomatoes"> Tomatoes<br>
+						<input class="veggie" type="checkbox" name="VeggieType" value="Onions"> Onions <br>
+						<input class="veggie" type="checkbox" name="VeggieType" value="Olives"> Olives<br> 
+						<input class="veggie" type="checkbox" name="VeggieType" value="Green Peppers"> Green Peppers<br>
+						<input class="veggie" type="checkbox" name="VeggieType" value="Mushrooms"> Mushrooms<br>
+						<input class="veggie" type="checkbox" name="VeggieType" value="Pineapple"> Pineapple<br>
+						<input class="veggie" type="checkbox" name="VeggieType" value="Spinach"> Spinach<br>
+						<input class="veggie" type="checkbox" name="VeggieType" value="Jalepeno"> Jalepeno<br>
+					</div>
+				</div>
+			</div>
+			
+	</div>
+	<input id="sbtorder" type="button" onclick="getReciept()" value="Place Order">
+	
+	<script src="./js/pizzafunctions.js"></script>
+	
+	</body>
+</html>
